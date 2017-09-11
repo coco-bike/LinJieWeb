@@ -1,0 +1,6 @@
+D:\test\dgkLB\LinJieWeb\LinJieWeb\bin\LinJieWeb.dll.config
+D:\test\dgkLB\LinJieWeb\LinJieWeb\bin\LinJieWeb.dll
+D:\test\dgkLB\LinJieWeb\LinJieWeb\bin\LinJieWeb.pdb
+D:\test\dgkLB\LinJieWeb\LinJieWeb\obj\Debug\LinJieWeb.dll
+D:\test\dgkLB\LinJieWeb\LinJieWeb\obj\Debug\LinJieWeb.pdb
+D:\test\dgkLB\LinJieWeb\LinJieWeb\obj\Debug\LinJieWeb.csprojResolveAssemblyReference.cache
