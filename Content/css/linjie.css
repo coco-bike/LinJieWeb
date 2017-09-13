@@ -79,32 +79,37 @@ div.header-menu ul li {
 
 #dgk-header > ul > li > a:link {
     color: white;
-    background-color: transparent;
+    /*background-color: transparent;*/
 }
 
 #dgk-header > ul > li > a:visited {
     color: white;
-    background-color: transparent;
+    /*background-color: transparent;*/
 }
 
 #dgk-header > ul > li > a:hover {
     color: black;
-    background-color: rgba(255,255,255,0.5);
+    /*background-color: rgba(255,255,255,0.5);*/
 }
 
 #dgk-header > ul > li > a:active {
-    color: rgb(38,59,86);
-    background-color: white;
+    color: white;
+    /*background-color: white;
+    border-radius:4px;*/
 }
-
 #dgk-header > ul > li > a:focus {
-    color: rgb(38,59,86);
-    background-color: white;
+    color: white;
+    /*background-color: white;*/
 }
 
-#dgk-header > ul > li.active > a {
-    color: rgb(38,59,86);
-    background-color: rgba(255,255,255,0.8);
+#dgk-header > ul > li.active1 > a {
+    color: white;
+    /*background-color: rgba(255,255,255,0.1);*/
+}
+#dgk-header > ul > li.active1
+{
+    background-color:rgba(255,255,255,0.2) ;
+    border-radius:8px;
 }
 
 .dropdown-menu > li > a {
@@ -380,19 +385,24 @@ div.content-imgs img {
     }
 
         .product-content .product-forth .content .img-1 {
-            background-image: url(../../Image/product/16.jpg);
+            background-image: url(../../Image/product/16.jpg);            
             height: 418px;
             width: 1192px;
         }
-
-            .product-content .product-forth .content .img-1 label {
-                font-size: 14px;
-                position: absolute;
-                right: 400px;
-                margin-top: 370px;
-                color: rgb(230,230,230);
+         .product-content .product-forth .content .img-1 .version
+         {   text-align:right;         
+             width:100%;
+         }
+            .product-content .product-forth .content .img-1 .version label {
+                font-size: 14px;                             
+                display:inline-block;
+                color: rgb(0,0,0);
+                margin-right:50px;
             }
+            .product-content .product-forth .content .img-1 .downloadbtn
+            {
 
+            }
             .product-content .product-forth .content .img-1 a {
                 width: 250px;
                 height: 50px;
@@ -407,25 +417,7 @@ div.content-imgs img {
                 margin-top: 320px;
             }
 
-            .product-content .product-forth .content .img-1 .button-download {
-                position: absolute;
-                margin: auto;
-                width: 200px;
-                border: 1px solid white;
-                background-color: white;
-                margin-bottom: 20px;
-            }
-
-                .product-content .product-forth .content .img-1 .button-download img {
-                    float: left;
-                    z-index: 2;
-                }
-
-                .product-content .product-forth .content .img-1 .button-download input {
-                    list-style: none;
-                    background-color: white;
-                }
-
+           
 .solution-content-header {
     background-color: white;
 }

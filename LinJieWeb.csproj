@@ -58,11 +58,17 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="contact.html" />
+    <Content Include="Content\css\animate.css" />
+    <Content Include="Content\css\bootstrap-theme.css" />
     <Content Include="Content\css\bootstrap-theme.css.map" />
+    <Content Include="Content\css\bootstrap-theme.min.css" />
     <Content Include="Content\css\bootstrap-theme.min.css.map" />
+    <Content Include="Content\css\bootstrap.css" />
     <Content Include="Content\css\bootstrap.css.map" />
+    <Content Include="Content\css\bootstrap.min.css" />
     <Content Include="Content\css\bootstrap.min.css.map" />
-    <Content Include="Content\css\firstlj.css" />
+    <Content Include="Content\css\site.css" />
+    <Content Include="Content\css\text.css" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.woff" />
@@ -75,16 +81,14 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\css\bootstrap-theme.css" />
-    <Content Include="Content\css\bootstrap-theme.min.css" />
-    <Content Include="Content\css\bootstrap.css" />
-    <Content Include="Content\css\bootstrap.min.css" />
     <Content Include="Content\css\linjie.css" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Content\js\bootstrap.js" />
     <Content Include="Content\js\bootstrap.min.js" />
     <Content Include="Content\js\jquery-3.2.1.min.js" />
     <Content Include="Content\js\npm.js" />
+    <Content Include="Content\js\wow.js" />
+    <Content Include="Content\js\wow.min.js" />
     <Content Include="Image\contact\e1.jpg" />
     <Content Include="Image\contact\e2.png" />
     <Content Include="Image\contact\e3.png" />
