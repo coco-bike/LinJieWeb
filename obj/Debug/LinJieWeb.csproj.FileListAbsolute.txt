@@ -4,3 +4,9 @@ D:\test\dgkLB\LinJieWeb\LinJieWeb\bin\LinJieWeb.pdb
 D:\test\dgkLB\LinJieWeb\LinJieWeb\obj\Debug\LinJieWeb.dll
 D:\test\dgkLB\LinJieWeb\LinJieWeb\obj\Debug\LinJieWeb.pdb
 D:\test\dgkLB\LinJieWeb\LinJieWeb\obj\Debug\LinJieWeb.csprojResolveAssemblyReference.cache
+G:\Git\LinJieWeb\bin\LinJieWeb.dll.config
+G:\Git\LinJieWeb\bin\LinJieWeb.dll
+G:\Git\LinJieWeb\bin\LinJieWeb.pdb
+G:\Git\LinJieWeb\obj\Debug\LinJieWeb.csprojResolveAssemblyReference.cache
+G:\Git\LinJieWeb\obj\Debug\LinJieWeb.dll
+G:\Git\LinJieWeb\obj\Debug\LinJieWeb.pdb

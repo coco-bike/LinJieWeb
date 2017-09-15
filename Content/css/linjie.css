@@ -401,9 +401,20 @@ div.content-imgs img {
             }
             .product-content .product-forth .content .img-1 .downloadbtn
             {
-
+                position:relative;
             }
-            .product-content .product-forth .content .img-1 a {
+            .product-content .product-forth .content .img-1 .downloadbtn .btn-1
+            {
+                position:absolute;
+                width:250px;
+                height:50px;
+                left:471px;
+                top:320px;
+                z-index:3;                    
+                background-color:rgba(149,149,149,0.9);
+                
+            }
+            .product-content .product-forth .content .img-1 .downloadbtn a:first-child {
                 width: 250px;
                 height: 50px;
                 font-size: 22px;
@@ -415,6 +426,7 @@ div.content-imgs img {
                 background-position: 35px 11px;
                 background-size: 30px 27px;
                 margin-top: 320px;
+
             }
 
            
