@@ -86,6 +86,7 @@
     <Content Include="Content\js\bootstrap.js" />
     <Content Include="Content\js\bootstrap.min.js" />
     <Content Include="Content\js\jquery-3.2.1.min.js" />
+    <Content Include="Content\js\linjie.js" />
     <Content Include="Content\js\npm.js" />
     <Content Include="Content\js\wow.js" />
     <Content Include="Content\js\wow.min.js" />

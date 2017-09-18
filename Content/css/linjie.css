@@ -7,11 +7,13 @@
 
 body, html {
     height: 100%;
+   
 }
 
 body {
     background-color: #171717;
     min-width: 1280px;
+    position:relative;
 }
 
 div.container {
@@ -48,6 +50,12 @@ div.header-menu ul li {
     text-align: center;
     margin-right: 1px;
 }
+
+        .content-index .content-main {
+            height: 100%;
+            background: no-repeat 50% 50%;
+            background-size: cover;
+        }
 
 .dropdown-menu {
     border: none;
@@ -129,14 +137,39 @@ div.header-menu ul li {
 .content-news{
     width:100%;
 }
-.content-index .content-main {
-    height: 100%;
-    background: no-repeat 50% 50%;
-    background-size: cover;
-}
+
 .content-index .content-img
 {
     width:100%;
+}
+.content-index a
+{
+    height:100px;
+    width:48px;
+    position:absolute;
+    top:835px;
+    left:50%;
+    z-index:4;
+}
+.content-index a .downslide
+{
+    height:48px;
+    width:48px;
+    display:inline-block;
+    background:url(../../Image/index/down.png) center no-repeat;
+    animation:downslideAnimation 4s infinite;
+    -webkit-animation:downslideAnimation 4s infinite;
+}
+@keyframes downslideAnimation
+{
+    0%{
+        opacity:0;
+        padding-top:0;
+    }
+    100%{
+        opacity:1;
+        padding-top:100px;
+    }
 }
     .content-index .content-main.index-img {
         background-image: url(../../Image/index/a1.jpg);
@@ -149,7 +182,8 @@ div.header-menu ul li {
     {
         background-image:url(../../Image/product/1.jpg)
     }
-div.content-imgs img {
+    
+.content-imgs img {
     width: 100%;
 }
 
