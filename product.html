@@ -187,19 +187,73 @@
                 <div class="content">
                     <div class="img-1">
                         <div class="downloadbtn">
-                            <a href="#" class="btn btn-default" id="bbtnz"> DOWNLOAD</a>
-                            <a href="javascript:alert('暂未提供下载,敬请期待')" class="btn-1" id="bb"></a>
+                            <a href="#" class="btn btn-default btn-primary btn-lg" id="bbtnz" data-toggle="modal" data-target="#myModal"> DOWNLOAD</a>
+                            <!--<a href="javascript:alert('暂未提供下载,敬请期待')" class="btn-1" id="bb"></a>-->
                         </div>
                         <div class="version">
                             <label>最新版本号LJ_VR_Platform_V0.91</label>
                         </div>
-                        <!--<div class="button-download">
-                            <img src="../Image/product/tubiao4.png" />
-                            <input type="button" value="DOWNLOAD">
-                        </div>-->
-                        <!--<input class="btn btn-default" type="button" value="DOWNLOAD" id="bbtn" />-->
-
                     </div>
+                </div>
+                <!--弹出框-->
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                                    &times;
+                                </button>
+                                <h4 class="modal-title" id="myModalLabel">
+                                    您好,新版本即将发布
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                留下联系方式，方便我们通知你
+                            </div>
+                            <div class="modal-footer">
+                                <form class="form-horizontal" role="form" id="form1">
+                                    <div class="form-group">
+                                        <label for="firstname" class="col-sm-2 control-label">名字</label>
+                                        <div class="col-sm-10">
+                                            <input type="text" class="form-control" id="name" name="name"
+                                                   placeholder="你的称呼：">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="firstname" class="col-sm-2 control-label">手机</label>
+                                        <div class="col-sm-10">
+                                            <input type="text" class="form-control" id="phonenumber" name="phonenumber"
+                                                   placeholder="手机号码：">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="firstname" class="col-sm-2 control-label">邮箱</label>
+                                        <div class="col-sm-10">
+                                            <input type="text" class="form-control" id="email" name="email"
+                                                   placeholder="邮箱：">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="firstname" class="col-sm-2 control-label">组织单位</label>
+                                        <div class="col-sm-10">
+                                            <input type="text" class="form-control" id="organization" name="organization"
+                                                   placeholder="组织单位：">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-sm-offset-2 col-sm-10">
+                                            <button type="button" class="btn btn-default" data-dismiss="modal" id="close">
+                                                关闭
+                                            </button>
+                                            <button type="button" class="btn btn-primary" id="submit" onclick="abc()">
+                                                提交
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div><!-- /.modal-content -->
+                    </div><!-- /.modal -->
                 </div>
 
             </div>

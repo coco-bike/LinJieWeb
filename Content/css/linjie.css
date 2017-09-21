@@ -415,6 +415,7 @@ div.header-menu ul li {
     .product-content .product-forth .content {
         margin-top: 30px;
         text-align: center;
+
         padding-bottom: 100px;
     }
 
@@ -453,7 +454,7 @@ div.header-menu ul li {
                 height: 50px;
                 font-size: 22px;
                 color: rgba(10,120,203,0.8);
-                line-height: 36px;
+                line-height: 30px;
                 text-indent: 50px;
                 background: url('../../Image/product/tubiao4.png') no-repeat;
                 background-color: white;
@@ -462,7 +463,18 @@ div.header-menu ul li {
                 margin-top: 320px;
 
             }
-
+            #myModal .modal-footer .control-label
+            {
+                font-size:15px;
+                color:rgb(38,59,86);
+            }
+            #myModalLabel
+            {
+                color:rgb(38,59,86);
+            }
+            .modal-body{
+                color:rgb(38,59,86);
+            }
            
 .solution-content-header {
     background-color: white;
