@@ -463,6 +463,11 @@ div.header-menu ul li {
                 margin-top: 320px;
 
             }
+            #myModal .modal-footer input
+            {
+                width: 234px;
+                float: left;
+            }
             #myModal .modal-footer .control-label
             {
                 font-size:15px;
@@ -474,8 +479,25 @@ div.header-menu ul li {
             }
             .modal-body{
                 color:rgb(38,59,86);
+            }    
+            .high {
+                color: red;
+                float: left;
+                padding-top: 7px;
+                padding-left: 20px;
             }
-           
+            .msg {
+                font-size: 13px;           
+            }
+    
+            .onError {
+                color: red;
+            }
+    
+            .onSuccess {
+                padding-right:65px;
+                color: green;
+            }
 .solution-content-header {
     background-color: white;
 }
