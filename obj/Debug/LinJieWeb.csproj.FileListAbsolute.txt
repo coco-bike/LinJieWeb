@@ -7,6 +7,5 @@ D:\test\dgkLB\LinJieWeb\LinJieWeb\obj\Debug\LinJieWeb.csprojResolveAssemblyRefer
 G:\Git\LinJieWeb\bin\LinJieWeb.dll.config
 G:\Git\LinJieWeb\bin\LinJieWeb.dll
 G:\Git\LinJieWeb\bin\LinJieWeb.pdb
-G:\Git\LinJieWeb\obj\Debug\LinJieWeb.csprojResolveAssemblyReference.cache
 G:\Git\LinJieWeb\obj\Debug\LinJieWeb.dll
 G:\Git\LinJieWeb\obj\Debug\LinJieWeb.pdb
